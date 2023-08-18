@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:trips_app/card_image_list.dart';
 import 'description_place.dart';
 import 'review_list.dart';
 import 'gradient_back.dart';
+import 'card_image.dart';
 
 void main() {
   runApp(MyApp());
@@ -29,6 +31,7 @@ class MyApp extends StatelessWidget {
               ],
             ),
             GradientBack("Popular"),
+            CardImageList(),
           ],
         ),
       ),

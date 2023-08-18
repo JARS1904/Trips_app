@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'description_place.dart';
 import 'review_list.dart';
+import 'gradient_back.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,13 +20,15 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text("Hola Mundo"),
-        ),
-        body: ListView(
+        body: Stack(
           children: [
-            DescriptionPlace("Duwili Ella", 4, descriptionPlace),
-            ReviewList(),
+            ListView(
+              children: [
+                DescriptionPlace("Duwili Ella", 4, descriptionPlace),
+                ReviewList(),
+              ],
+            ),
+            GradientBack("Popular"),
           ],
         ),
       ),

@@ -17,7 +17,7 @@ class Review extends StatelessWidget {
     final userName = Container(
       margin: EdgeInsets.only(
         left: 20.0,
-        top: 20.0,
+        top: 10.0,
         bottom: 5.0,
       ),
       child: Text(
@@ -47,7 +47,7 @@ class Review extends StatelessWidget {
     final userComment = Container(
       margin: EdgeInsets.only(
         left: 20.0,
-        bottom: 5.0,
+        top: 5.0,
       ),
       child: Text(
         comment,
@@ -62,7 +62,7 @@ class Review extends StatelessWidget {
     final userStars = Container(
       margin: EdgeInsets.only(
         left: 3.0,
-        top: 20.0,
+        top: 12.0,
       ),
       child: Icon(
         Icons.star,
@@ -85,8 +85,8 @@ class Review extends StatelessWidget {
         top: 20.0,
         left: 20.0,
       ),
-      width: 80.0,
-      height: 80.0,
+      width: 70.0,
+      height: 70.0,
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         image: DecorationImage(

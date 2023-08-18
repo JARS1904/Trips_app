@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'description_place.dart';
+import 'review_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +22,12 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Hola Mundo"),
         ),
-        body: DescriptionPlace("Duwili Ella", 4, descriptionPlace),
+        body: ListView(
+          children: [
+            DescriptionPlace("Duwili Ella", 4, descriptionPlace),
+            ReviewList(),
+          ],
+        ),
       ),
     );
   }

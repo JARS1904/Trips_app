@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # trips_app
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Trips_app
+Aplicación en flutter sobre lugares para visitar
+>>>>>>> bbb05806049d6ef70e4a8795c9d35a572c85d264

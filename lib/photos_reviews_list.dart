@@ -6,9 +6,9 @@ class PhotosReviewsList extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
-      height: 150,
+      height: 130,
       child: ListView(
-        padding: EdgeInsets.all(10.0),
+        padding: EdgeInsets.all(0.5),
         scrollDirection: Axis.horizontal,
         children: [
           PhotosReviews("assets/img/place1.jfif"),
